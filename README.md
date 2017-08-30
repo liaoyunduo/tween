@@ -17,5 +17,5 @@ effect支持以下的情况
 
 1. 如果传递进来的是一个数字：0->Linear 1->Circ-easeInOut 2->Elastic-easeOut 3->Back-easeOut 4->Bounce-easeOut 5->Expo-easeIn
 
-2. 如果传递进来的是一个数组：move(curEle, target, duration,["Elastic","easeOut"]) ->Effect.Elastic.easeOut
+2. 如果传递进来的是一个数组：Animate(curEle, target, duration,["Elastic","easeOut"]) ->Effect.Elastic.easeOut
 3. 如果不传递的话,默认就使用Effect.Linear匀速效果
